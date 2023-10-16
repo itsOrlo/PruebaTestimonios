@@ -8,7 +8,7 @@ function Testimonio(props) {
         className="imagen-testimonio"
 
         /* Obligatorio el uso de "{" y "`" */
-        src={`/imgs/testimonio_${props.imagen}.jpg`}
+        src={`imgs/testimonio_${props.imagen}.jpg`}
 
         alt={`Foto de ${props.nombre}`}
         
