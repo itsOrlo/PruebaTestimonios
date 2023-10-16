@@ -13,13 +13,13 @@ function App() {
           empresa="WebCats"
           testimonio={
             <>
-              {" "}
-              <b>Soy un joven</b> apasionado por la tecnología y participe de
-              esta nueva era digital, me encanta explorar el vasto mundo
-              tecnológico y encontrar formas creativas de dar vida a ideas a
-              través del código y el diseño. Siempre estoy buscando nuevos
-              desafíos y oportunidades para seguir aprendiendo y creciendo en
-              este emocionante campo.
+              Como entusiasta de la tecnología, me comprometo con el dinámico
+              panorama de la era digital. Mi dedicación radica en explorar el
+              extenso universo tecnológico y<b>desarrollar</b> soluciones
+              innovadoras mediante la implementación de
+              <b>código</b> y <b>diseño</b>. Constantemente persigo desafíos que
+              promuevan mi continua formación y progreso en este estimulante
+              campo.
             </>
           }
         />
@@ -28,15 +28,29 @@ function App() {
           imagen="Richie"
           cargo="Desarrollador Backend"
           empresa="WebCats"
-          testimonio="Soy Ricardo Zaldumbide, un joven apasionado por la programación y la electrónica. Mi orgullo radica en mi capacidad para perseguir objetivos con tenacidad y habilidad para colaborar eficazmente con otros desarrolladores.
-          "
+          testimonio={
+            <>
+              Soy Ricardo Zaldumbide, un joven apasionado por la{" "}
+              <b>programación</b> y la <b>electrónica</b>. Mi orgullo radica en
+              mi capacidad para perseguir objetivos con tenacidad y habilidad
+              para colaborar eficazmente con otros desarrolladores.
+            </>
+          }
         />
         <Testimonio
           nombre="Cristhian Recalde"
           imagen="Gris"
           cargo="Dev UX/UI"
           empresa="WebCats"
-          testimonio="Tengo una pasión por la programación, trato de encontrar la mejor solución y no me gusta rendirme. Me gusta dar valor en donde me encuentre y a la vez puedan contar conmigo, por ello he creado algunos proyectos interesantes que se pueden vislumbrar en este portafolio. Del mismo modo me gusta trabajar en solitario o en grupo, siempre que haya pasión por el trabajo o proyecto cuentan con mi voluntad a cumplirlo de la mejor manera."
+          testimonio={
+            <>
+              Tengo una pasión por la programación, trato de encontrar la{" "}
+              <b>mejor solución</b> y no me gusta rendirme. Dominio en
+              conocimientos de TI capaz de utilizar <b>metodos, tecnicas y
+              herramientas de alto invel</b> para el desarrollo de software, con
+              capacidad de analisis y resolucion de problemas.
+            </>
+          }
         />
       </div>
     </div>
