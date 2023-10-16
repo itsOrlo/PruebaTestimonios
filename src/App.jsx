@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="contenedor_Padre">
-        <h1>Testimonios de Dios sabe quien</h1>
+        <h1>Testimonios de Dios sabe quien:</h1>
         <Testimonio
           nombre="Orlidan Montesdeoca"
           imagen="Orlo"
