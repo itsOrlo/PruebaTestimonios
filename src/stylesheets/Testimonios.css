@@ -13,7 +13,7 @@
   .imagen-testimonio {
     height: 100%;
     width: 35%;
-    max-width: 340px;
+    max-width: auto;
   }
   
   .contenedor-texto-testimonio {
